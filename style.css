@@ -20,7 +20,7 @@ footer{
 }
 
 .container div {
-  background-color: #550a0a;
+  background-color: #29524a;
 }
 
 #nav1{
@@ -29,8 +29,9 @@ footer{
     grid-column-end: 2;
     text-align: center;
     border-style:outset;
-    border-color: #250606;
+    border-color: #999999;
     border-radius: 1%;
+    border-width: 5px;
 }
 #nav2{
     
@@ -38,8 +39,9 @@ footer{
     grid-column-end: 3;
     text-align: center;
     border-style:outset;
-    border-color: #250606;
+    border-color: #999999;
     border-radius: 1%;
+     border-width: 5px;
 }
 #nav3{
    
@@ -47,8 +49,9 @@ footer{
     grid-column-end: 4;
     text-align: center;
     border-style:outset;
-    border-color: #250606;
-    border-radius: 225px;
+    border-color: #999999;
+    border-radius: 1%;
+     border-width: 5px;
 }
 #nav{
   text-decoration: none;
