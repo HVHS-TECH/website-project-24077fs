@@ -90,33 +90,30 @@ footer{
   font-weight:bolder;
   right:40%;
 }
-
 #titletext2{
   font-size: 250px;
   font-family:'Times New Roman', Times, serif;
   font-weight:bolder;
   float:bottom;
 }
-
 #s4{
   grid-column-start:1 ;
   grid-column-end:3 ;
   grid-row-start:3 ;
   grid-row-end:4 ; 
 }
-
-
-
 #nav1:hover{
   border-style: inset;
+  background-color: #9b9b9b;  
 }
 #nav2:hover{
   border-style: inset;
+  background-color: #9b9b9b;
 }
 #nav3:hover{
   border-style: inset;
+  background-color: #9b9b9b;
 }
-
 #ph{
   font-size: 115px;
 
