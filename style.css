@@ -5,6 +5,10 @@ header {
 
 }
 
+h1 {
+  font-size: 60px;
+}
+
 html{
 background-color: #29524a;
 }
@@ -32,9 +36,9 @@ footer{
     grid-column-start: 1;
     grid-column-end: 2;
     text-align: center;
-    border-style:outset;
+    border-style:inset;
     border-color: #999999;
-    border-radius: 1%;
+    
     border-width: 5px;
 }
 #nav2{
@@ -94,14 +98,9 @@ footer{
   font-size: 250px;
   font-family:'Times New Roman', Times, serif;
   font-weight:bolder;
-  float:bottom;
+  float:bottom
 }
-#s4{
-  grid-column-start:1 ;
-  grid-column-end:3 ;
-  grid-row-start:3 ;
-  grid-row-end:4 ; 
-}
+
 #nav1:hover{
   border-style: inset;
   background-color: #9b9b9b;  
@@ -118,10 +117,46 @@ footer{
   font-size: 115px;
 
 }
+#s4{
+  grid-column-start:1 ;
+  grid-column-end:3 ;
+  grid-row-start:3 ;
+  grid-row-end:5 ; 
+
+}
+#s4.5 {
+  grid-column-start:3 ;
+  grid-column-end:4 ;
+  grid-row-start:3 ;
+  grid-row-end:4 ; 
+
+}
 
 #s5{
-  grid-column-start:1;
-  grid-column-end:3;
-  grid-row-start:4;
-  grid-row-end:5;
+  grid-column-start:1 ;
+  grid-column-end:3 ;
+  grid-row-start:5 ;
+  grid-row-end:6 ; 
+
+}
+#s5.5 {
+  grid-column-start:3 ;
+  grid-column-end:4 ;
+  grid-row-start:5 ;
+  grid-row-end:6 ; 
+
+}
+#s6{
+  grid-column-start:1 ;
+  grid-column-end:3 ;
+  grid-row-start:6 ;
+  grid-row-end:7 ; 
+
+}
+#s6.5 {
+  grid-column-start:3 ;
+  grid-column-end:4 ;
+  grid-row-start:6 ;
+  grid-row-end:7 ; 
+
 }
