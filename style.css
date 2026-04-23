@@ -14,7 +14,7 @@ background-color: #29524a;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows:auto auto auto auto auto auto auto auto auto auto auto;
-
+alt="An image of half of a wheel rim"
   
   
 }
@@ -158,20 +158,6 @@ background-color: #29524a;
   grid-column-end:4 ;
   grid-row-start:7 ;
   grid-row-end:8 ; 
-
-}
-#s8{
-  grid-column-start:1 ;
-  grid-column-end:3 ;
-  grid-row-start:8 ;
-  grid-row-end:9 ; 
-
-}
-#s8s {
-  grid-column-start:3 ;
-  grid-column-end:4 ;
-  grid-row-start:8 ;
-  grid-row-end:9 ; 
 
 }
 #s9{
